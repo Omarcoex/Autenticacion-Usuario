@@ -21,16 +21,15 @@ body {
   justify-content: center;
   gap: 8px;
 }
-label{
-    font-size: 25px;
-    font-weight: bold;
-
+label {
+  font-size: 25px;
+  font-weight: bold;
 }
-input{
-   height: 30px;
+input {
+  height: 30px;
 }
-.mensaje{
-    padding-top: 10px;
+.mensaje {
+  padding-top: 10px;
 }
 img {
   width: 150px;
@@ -38,17 +37,17 @@ img {
   padding: 8px;
   margin: auto;
   border-radius: 20px;
+}
+figure {
+  /* border: solid 2px; */
+  display: flex;
+}
+button {
+  margin-top: 25px;
+  height: 50px;
+  width: 150px;
+  font-size: 15px;
+  font-weight: bold;
+  color: peru;
+}
 
-}
-figure{
-   /* border: solid 2px; */
-   display: flex;
-}
-button{
-    margin-top: 25px;
-    height: 50px;
-    width: 150px;
-    font-size: 15px;
-    font-weight: bold;
-    color: peru;
-}

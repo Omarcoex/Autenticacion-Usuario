@@ -9,6 +9,9 @@ boton.addEventListener("click", (e) => {
   alert("Usuario o contraseña vacio");
   if (username == "Omar123" && password == "1234") {
     alert("Bienvenido");
+    setTimeout(()=>{
+      location="./home.html"
+    },1000)
   } else {
     document.querySelector("#mensaje").style.display = "block";
     setTimeout(() => {
