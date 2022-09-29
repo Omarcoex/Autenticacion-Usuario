@@ -2,21 +2,19 @@ const boton = document.getElementById("ingresar");
 boton.addEventListener("click", (e) => {
   e.preventDefault();
 
-  document.getElementById("username").value == "" ||
-    document.getElementById("password").value == "";
+  const username= document.getElementById("username").value;
+  const password= document.getElementById("password").value;
 
-  if (username == "" || password == "") alert("Usuario o contraseña vacío");
-  alert("Usuario o contraseña vacio");
+  if (username == "" || password == "") alert("Usuario o contraseña vacio");
   if (username == "Omar123" && password == "1234") {
     alert("Bienvenido");
-    setTimeout(()=>{
-      location="./home.html"
-    },1000)
-  } else {
-    document.querySelector("#mensaje").style.display = "block";
     setTimeout(() => {
-      document.querySelector("#mensaje");
-      style.display = "none";
+      location = "./home.html";
+    }, 1000);
+  } else {
+    document.querySelector(".mensaje").style.display = "block";
+    setTimeout(() => {
+      document.querySelector(".mensaje").style.display = "none";
     }, 3000);
   }
   document.getElementById("password").addEventListener("mouseenter", mostrar);
